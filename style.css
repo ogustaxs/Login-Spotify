@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+body{
+    height: 96vh;
+ background-image: linear-gradient(to bottom, #443f3f , #000000 );
+    /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgb(0, 0, 0) 100%); */
+    width: 100%;
+}
+
+
+#card{
+    margin: auto;
+    background-color: #121212;
+    width: 38%;
+    height: 75vh;
+    text-align: center;
+    margin-top: 2%;
+    border-radius: 10px;
+    color: white;
+}
+
+#card img{
+    margin-top: 3%;
+}
+
+#card h1{
+    font-size: 31px;
+}
+
+#propriety-login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 3%;
+}
+
+#logo-maior {
+    height: 50px;
+}
+
+#propriety-login>div{
+    border: 1px solid #4e4d4d;
+    border-radius: 50px;
+    text-align: center;
+    width: 42%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 5vh;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+}
+
+#tel{
+    border: 1px solid #4e4d4d;
+    border-radius: 50px;
+    text-align: center;
+    width: 42%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 6vh;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+    margin-top: 2%;
+}
+
+#tel>p{
+   margin: 5px 0;
+}
+
+#propriety-login>div:hover{
+    border: 1px solid white;
+}
+
+#tel:hover{
+    border: 1px solid white;
+}
+
+#propriety-login>div>img {
+    max-height: 23px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 4px;
+}
+
+hr{
+    border-top:1px solid rgb(41, 41, 41);
+    margin: 32px 100px;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    font-weight: 300;
+}
+
+#register-input{
+    border: 1px solid #443f3f;
+    background-color: transparent;
+    width: 45%;
+    height: 5vh;
+    font-size: 15px;
+    border-radius: 1px;
+    padding-left: 10px;
+    margin-top: 1%;
+}
+
+#login>a>button{
+    width: 45%;
+    height: 5vh;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 700;
+    background-color: #1ed760;
+    font-size: 14px;
+    margin-top: 2%;
+}
+
+#login>a>button:hover{
+    transform: scale(1.05);
+    background-color: #50fd8d;
+}
+
+
+/* #register-input:hover{
+    border: 1px solid white;
+    margin-top: 2%;
+} */
+
+#why>h5{
+    color: #b3b3b3;
+    font-weight:400;
+    font-size: 14px;
+}
+
+.register-me{
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.register-me:hover{
+    color: #1ed760;
+}
+
+#register p{
+    font-weight: 600;
+    margin-right: 18%;
+    font-size: 14px;
+}
+
+footer{
+    height: 8vh;
+    background-color:rgb(20, 20, 20);
+    width: 100%;
+    margin-top: 6.6%;
+    text-align: center;
+}
+
+footer>p{
+    font-size: 12px;
+    color: #b3b3b3;
+    padding-top: 2%;
+}
+
+#why{
+    margin-top: 5%;
+}
+
+span{
+    text-decoration: underline;
+}
